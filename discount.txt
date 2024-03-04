@@ -1,0 +1,3 @@
+cost,discount=int(input()),int(input())
+bill=cost-(cost*(discount/100))
+print("bill:",bill)
